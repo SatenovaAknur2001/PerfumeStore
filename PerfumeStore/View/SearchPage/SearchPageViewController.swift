@@ -120,7 +120,7 @@ class SearchPageViewController: UIViewController{
         mainButton.customButton(setTitle: "By Notes", setTitleState: .normal, color: .black, background: .white, radius: 15, enableButton: false)
         mainButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         
-        groupButton.customButton(setTitle: "By Groups", setTitleState: .normal, color: .black, background: .white, radius: 15, enableButton: false)
+        groupButton.customButton(setTitle: "By Template", setTitleState: .normal, color: .black, background: .white, radius: 15, enableButton: false)
         groupButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         
     }
